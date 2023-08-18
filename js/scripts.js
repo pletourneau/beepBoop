@@ -2,8 +2,8 @@
 
 function beepBoop(num) {
   const arr = [];
-  const indexArr = [];
-  for (let i=0; i<=num; i++) {
+  const inputNum = parseInt(num);
+  for (let i=0; i<=inputNum; i++) {
     let iStr = i.toString();
     if (iStr.includes("3")) {
       arr.push("Won't you be my neighbor?");
@@ -14,8 +14,6 @@ function beepBoop(num) {
     } else {
       (arr.push(i));
     }
-    
-   
   }
   console.log(arr);
 }
