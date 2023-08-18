@@ -33,6 +33,9 @@ Test 3: "replace any instance of 3 with 'Won't you be my neighbor?'"
 Code: beepBoop(13);
 Expected Output: arrToStr = ["0", "1", "2", "Won't you be my neighbor?"..."12", "Won't you be my neighbor?"]
 
+Test 4: "replace FULL number containing any instance of 3 with 'Won't you be my neighbor?'"
+Code: beepBoop(13);
+Expected Output: arrToStr = ["0", "1", "2", "Won't you be my neighbor?"..."12", "Won't you be my neighbor?"]
 
 ```
 ## Setup/Installation Requirements
