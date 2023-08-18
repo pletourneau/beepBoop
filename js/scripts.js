@@ -7,7 +7,10 @@ function beepBoop(num) {
     let iStr = i.toString();
     if (iStr.includes("3")) {
       arr.push("Won't you be my neighbor?");
-    } else {
+    } else if {
+      if (iStr.includes("2")) {
+        arr.push("Boop");
+      {
       arr.push(i);
     }
     
@@ -15,10 +18,6 @@ function beepBoop(num) {
   }
   console.log(arr);
   
-
-  const strOfArr = arr.toString(" "); 
-
-  const threeString = strOfArr.replace(/3/g, "Won't you be my neighbor?");
   
   
 
