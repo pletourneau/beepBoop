@@ -44,6 +44,10 @@ Expected Output: arrToStr = ["0", "Beep", "Boop", "Won't you be my neighbor?"...
 Test 8: "if a number is not an integer (has decimals) it will truncate and still return"
 Code: beepBoop(13.1);
 Expected Output: arrToStr = ["0", "Beep", "Boop", "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
+
+Test 9: "if a number is negative it will return from 0 down to the number"
+Code: beepBoop(13.1);
+Expected Output: arrToStr = ["0", "Beep", "Boop", "-4", "-5"... "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
 ```
 ## Setup/Installation Requirements
 
