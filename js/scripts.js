@@ -22,11 +22,11 @@ function beepBoop(num) {
       for (let i=0; i>=inputNum; i--) {
         let iStr = i.toString();
         if (iStr.includes("3")) {
-          arr.push("Won't you be my neighbor?");
+          arr.push(" Won't you be my neighbor?");
         } else if (iStr.includes("2")) {
-          arr.push("Boop!");
+          arr.push(" Boop!");
         } else if (iStr.includes("1")) {
-          arr.push("Beep!");
+          arr.push(" Beep!");
         } else {
           (arr.push(i));
         }
@@ -36,10 +36,6 @@ function beepBoop(num) {
     }
     result = arr.toString(" ");
   }
-  
-  
-
-
 
 
 
