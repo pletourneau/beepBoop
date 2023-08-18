@@ -9,7 +9,10 @@ function beepBoop(num) {
       arr.push("Won't you be my neighbor?");
     } else if (iStr.includes("2")) {
       arr.push("Boop");
-    } else {
+    } 
+    
+    
+    else {
       (arr.push(i));
     }
     

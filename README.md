@@ -36,6 +36,10 @@ Expected Output: arrToStr = ["0", "1", "2", "Won't you be my neighbor?"..."12", 
 Test 6: "if a number being pushed to the array contains a 2, then push 'Boop'"
 Code: beepBoop(13);
 Expected Output: arrToStr = ["0", "1", "Boop", "Won't you be my neighbor?"..."Boop", "Won't you be my neighbor?"]
+
+Test 7: "if a number being pushed to the array contains a 1, then push 'Beep'"
+Code: beepBoop(13);
+Expected Output: arrToStr = ["0", "Beep", "Boop", "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
 ```
 ## Setup/Installation Requirements
 
