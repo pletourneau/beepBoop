@@ -9,38 +9,13 @@ function beepBoop(num) {
       arr.push("Won't you be my neighbor?");
     } else if (iStr.includes("2")) {
       arr.push("Boop");
-    } 
-    
-    
-    else {
+    } else if (iStr.includes("1")) {
+      arr.push("Beep");
+    } else {
       (arr.push(i));
     }
     
-    // arr.push(iStr);
+   
   }
   console.log(arr);
-  
-  
-  
-
-  
- 
-
-  // arr.forEach(function(instance) {
-
-    // if (instance === 3) {
-    //   indexArr.push(arr.indexOf(instance));
-    // }
-//   });
 }
-
-// if (arr.includes(3)) {
-  //   arr.forEach(function(instance) {
-  //     indexArr.push(arr.indexOf());
-  //   });
-  //   console.log(indexArr);
-  // }
-
-// UI Logic
-
-//getNum function
