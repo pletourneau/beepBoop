@@ -33,10 +33,6 @@ Test 1: "function should take a number and create array from zero to that number
 Code: beepBoop(5);
 Expected Output: [1,2,3,4,5]
 
-Test 2: "convert arr to string"
-Code: beepBoop(3);
-Expected Output: arrToStr = ["0", "1", "2", "3"]
-
 Test 5: "if a number being pushed to the array contains a 3, then push 'Won't you be my neighbor?'"
 Code: beepBoop(13);
 Expected Output: arrToStr = ["0", "1", "2", "Won't you be my neighbor?"..."12", "Won't you be my neighbor?"]
@@ -57,13 +53,7 @@ Test 9: "if a number is negative it will return from 0 down to the number"
 Code: beepBoop(-13.1);
 Expected Output: arrToStr = ["0", "Beep", "Boop", "-4", "-5"... "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
 
-Test 10: "print result to DOM and recalculate when another value is entered"
-Code: beepBoop(-13.1);
-Expected Output: arrToStr = ["0", "Beep", "Boop", "-4", "-5"... "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
-Code part 2, resubmission: beepBoop(3);
-Expected Output: arrToStr = ["0", "Beep", "Boop"]
-
-Test 11: "if input is a word or a zero, show error msg on screen"
+Test 11:"if input is a word or a zero, show error msg on screen"
 Code: "test"
 Expected Output: "Error Human, that is a word. Please enter a non zero number."
 
