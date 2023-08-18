@@ -7,12 +7,16 @@ function beepBoop(num) {
     arr.push(i);
   }
   
-  arr.forEach(function(instance) {
-    if (instance === 3) {
-      indexArr.push(arr.indexOf(instance));
-    }
-  });
-  console.log(indexArr);
+  const arrToStr = arr.toString(); 
+  console.log(arrToStr);
+ 
+
+  // arr.forEach(function(instance) {
+
+    // if (instance === 3) {
+    //   indexArr.push(arr.indexOf(instance));
+    // }
+//   });
 }
 
 // if (arr.includes(3)) {

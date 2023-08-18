@@ -27,7 +27,7 @@ Expected Output: [1,2,3,4,5]
 
 Test 2: "convert arr to string"
 Code: beepBoop(3);
-Expected Output: arr = ["1", "2", "3"]
+Expected Output: arrToStr = ["1", "2", "3"]
 
 
 ```
