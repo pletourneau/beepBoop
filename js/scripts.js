@@ -1,5 +1,7 @@
 // Business Logic
 
+
+
 function beepBoop(num) {
   const arr = [];
   const inputNum = parseInt(num);
@@ -30,6 +32,23 @@ function beepBoop(num) {
       }
     }
   }
-  
-  console.log(arr);
+  result = arr.toString(" ");
+  console.log(result);
 }
+
+
+
+//UI Logic
+window.addEventListener("load", function() {
+  const form = document.getElementById("form");
+  form.addEventListener("submit", beepBoop); 
+});
+
+function handleSubmission(event) {
+  event.preventDefault();
+  document.getElementById("output").setAttribute("class", "hidden");
+  document.querySelector(".hidden").removeAttribute("class");
+  document.getElementById("output").innerText = result;
+  document.getElementById("form").reset();
+}
+
