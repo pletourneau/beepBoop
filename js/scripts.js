@@ -7,11 +7,10 @@ function beepBoop(num) {
     let iStr = i.toString();
     if (iStr.includes("3")) {
       arr.push("Won't you be my neighbor?");
-    } else if {
-      if (iStr.includes("2")) {
-        arr.push("Boop");
-      {
-      arr.push(i);
+    } else if (iStr.includes("2")) {
+      arr.push("Boop");
+    } else {
+      (arr.push(i));
     }
     
     // arr.push(iStr);
