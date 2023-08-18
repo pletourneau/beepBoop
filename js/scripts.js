@@ -4,14 +4,25 @@ function beepBoop(num) {
   const arr = [];
   const indexArr = [];
   for (let i=0; i<=num; i++) {
-    arr.push(i);
+    let iStr = i.toString();
+    if (iStr.includes("3")) {
+      arr.push("Won't you be my neighbor?");
+    } else {
+      arr.push(i);
+    }
+    
+    // arr.push(iStr);
   }
+  console.log(arr);
   
-  const strOfArr = arr.toString(" "); 
-  const threeString = strOfArr.replace(/3/g, "Won't you be my neighbor?");
-  const finalThreeArr = threeString.split(" ");
 
-  console.log(finalThreeArr);
+  const strOfArr = arr.toString(" "); 
+
+  const threeString = strOfArr.replace(/3/g, "Won't you be my neighbor?");
+  
+  
+
+  
  
 
   // arr.forEach(function(instance) {
