@@ -30,8 +30,10 @@ function beepBoop(num) {
         (arr.push(i));
       }
     }
+    let result = arr.toString(" ");
+    return result;
   }
-        result = arr.toString(" ");
+    
   }
   
   
