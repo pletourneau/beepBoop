@@ -63,7 +63,7 @@ Expected Output: arrToStr = ["0", "Beep", "Boop", "-4", "-5"... "Won't you be my
 Code part 2, resubmission: beepBoop(3);
 Expected Output: arrToStr = ["0", "Beep", "Boop"]
 
-Test 11: "if input is a word or a zero, show eror msg on screen"
+Test 11: "if input is a word or a zero, show error msg on screen"
 Code: "test"
 Expected Output: "Error Human, that is a word. Please enter a non zero number."
 
