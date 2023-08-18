@@ -25,9 +25,9 @@ Test 1: "function should take a number and create array from zero to that number
 Code: beepBoop(5);
 Expected Output: [1,2,3,4,5]
 
-Test 1: "find each instance of the number three in arr, and push the indexof each instance into a new array 'indexArr'"
-Code: beepBoop(13);
-Expected Output: indexArr = [2, 12]
+Test 2: "convert arr to string"
+Code: beepBoop(3);
+Expected Output: arr = ["1", "2", "3"]
 
 
 ```
