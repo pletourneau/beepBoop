@@ -40,6 +40,10 @@ Expected Output: arrToStr = ["0", "1", "Boop", "Won't you be my neighbor?"..."Bo
 Test 7: "if a number being pushed to the array contains a 1, then push 'Beep'"
 Code: beepBoop(13);
 Expected Output: arrToStr = ["0", "Beep", "Boop", "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
+
+Test 8: "if a number is not an integer (has decimals) it will truncate and still return"
+Code: beepBoop(13.1);
+Expected Output: arrToStr = ["0", "Beep", "Boop", "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
 ```
 ## Setup/Installation Requirements
 
