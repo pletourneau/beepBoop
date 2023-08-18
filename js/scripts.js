@@ -2,8 +2,9 @@
 
 
 function beepBoop(num) {
-    arr = [];
+    const arr = [];
     const inputNum = parseInt(num);
+    
     if (inputNum > 0) {
       for (let i=0; i<=inputNum; i++) {
         let iStr = i.toString();
@@ -31,6 +32,7 @@ function beepBoop(num) {
         }
       }
     }
+    
     result = arr.toString(" ");
   }
   
