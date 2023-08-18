@@ -7,8 +7,9 @@ function beepBoop(num) {
     arr.push(i);
   }
   
-  const arrToStr = arr.toString(); 
-  console.log(arrToStr);
+  const strOfArr = arr.toString(" "); 
+  const finalString = strOfArr.replace(/3/g, "Won't you be my neighbor?")
+  console.log(finalString);
  
 
   // arr.forEach(function(instance) {
