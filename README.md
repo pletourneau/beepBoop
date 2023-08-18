@@ -53,7 +53,7 @@ Test 9: "if a number is negative it will return from 0 down to the number"
 Code: beepBoop(-13.1);
 Expected Output: arrToStr = ["0", "Beep", "Boop", "-4", "-5"... "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
 
-Test 11:"if input is a word or a zero, show error msg on screen"
+Test 11:"if input is a word or a zero, push error msg to array"
 Code: "test"
 Expected Output: "Error Human, that is a word. Please enter a non zero number."
 
