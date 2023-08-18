@@ -25,9 +25,9 @@ Test 1: "function should take a number and create array from zero to that number
 Code: beepBoop(5);
 Expected Output: [1,2,3,4,5]
 
-Test 1: "if returned array includes the number 3, 3 should be replaced by 'Won't you be my neighbor?'"
-Code: beepBoop(5);
-Expected Output: [1,2,"Won't you be my neighbor?",4,5]
+Test 1: "find each instance of the number three in arr, and push the indexof each instance into a new array 'indexArr'"
+Code: beepBoop(13);
+Expected Output: indexArr = [2, 12]
 
 
 ```
