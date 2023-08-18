@@ -15,6 +15,23 @@
 
 _{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
 
+
+## Tests
+
+```
+Describe: beepBoop()
+
+Test: "function should take a number and create array from zero to that number"
+Code: beepBoop(5);
+Expected Output: [1,2,3,4,5]
+
+
+
+
+
+
+
+```
 ## Setup/Installation Requirements
 
 * _This is a great place_
