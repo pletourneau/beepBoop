@@ -32,7 +32,7 @@ function beepBoop(num) {
         }
       } 
     } else {
-      (arr.push("Error Human, please enter a non-zero number"));
+      arr.push("Error Human, please enter a non-zero number");
     }
     result = arr.toString(" ");
   }
