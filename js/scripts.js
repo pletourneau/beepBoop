@@ -1,6 +1,5 @@
 // Business Logic
 
-
 function beepBoop(num) {
     const arr = [];
     const inputNum = parseInt(num);
@@ -36,8 +35,6 @@ function beepBoop(num) {
     }
     result = arr.toString(" ");
   }
-
-
 
 //UI Logic
 window.addEventListener("load", function() {
