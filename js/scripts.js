@@ -33,7 +33,7 @@ function beepBoop(num) {
     } else {
       arr.push("Error Human, please enter a non-zero number. Resistance is futile");
     }
-    result = arr.toString(" ");
+    arr.toString(" ");
   }
 
 //UI Logic

@@ -15,7 +15,7 @@
 
 ## Description
 
-```
+```javascript
 This program will replace specific digits in a number. For numbers that contain a 1, all digits are replaced with "Beep!"
 For numbers that contain a 2, all digits are replaced with "Boop!"
 For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"
@@ -25,7 +25,7 @@ For numbers that contain a 3, all digits are replaced with "Won't you be my neig
 
 ## Tests
 
-```
+```javascript
 
 Describe: beepBoop()
 
@@ -56,6 +56,10 @@ Expected Output: arrToStr = ["0", "Beep", "Boop", "-4", "-5"... "Won't you be my
 Test 11:"if input is a word or a zero, push error msg to array"
 Code: "test"
 Expected Output: "Error Human, that is a word. Please enter a non zero number."
+
+Test 12:"change line 36 from a global to a local variable that is returned so it can be read on line 51"
+Code: beepBoop(-13.1);
+Expected Output: ["0", "Beep", "Boop", "-4", "-5"... "Won't you be my neighbor?"..."Beep", "Beep", "Boop", "Won't you be my neighbor?"]
 
 ```
 
