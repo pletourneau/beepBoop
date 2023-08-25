@@ -33,8 +33,9 @@ function beepBoop(num) {
     } else {
       arr.push("Error Human, please enter a non-zero number. Resistance is futile");
     }
-    return result = arr.toString(" ");
-  }
+      const result = arr.toString(" ");
+      return result;
+}
 
 //UI Logic
 window.addEventListener("load", function() {
@@ -46,8 +47,8 @@ window.addEventListener("load", function() {
 function handleSubmission(event) {
   event.preventDefault();
   let num1 = document.getElementById("q1").value;
-  beepBoop(num1); 
+  let myReturn = beepBoop(num1);  
   document.getElementById("output").removeAttribute("class");
-  document.getElementById("output").innerText = result;
+  document.getElementById("output").innerText = myReturn;
   document.getElementById("form").reset();
 }
